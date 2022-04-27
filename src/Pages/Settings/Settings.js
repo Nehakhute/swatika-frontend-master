@@ -40,7 +40,7 @@ function Settings(props) {
               }`}
             >
               <span className="item-title">Auto Login</span>
-              <span className="item-desc">Some help text here</span>
+              <span className="item-desc"></span>
             </div>
             <div
               onClick={() => setActiveKey("subscription")}
@@ -49,7 +49,7 @@ function Settings(props) {
               }`}
             >
               <span className="item-title">Subscription</span>
-              <span className="item-desc">Some help text here</span>
+              <span className="item-desc"></span>
             </div>
             <div
               onClick={() => setActiveKey("downloads")}
@@ -58,7 +58,7 @@ function Settings(props) {
               }`}
             >
               <span className="item-title">Downloads</span>
-              <span className="item-desc">Some help text here</span>
+              <span className="item-desc"></span>
             </div>
             <div
               onClick={() => setActiveKey("intraday-stock-list")}
@@ -67,7 +67,7 @@ function Settings(props) {
               }`}
             >
               <span className="item-title">Intraday Stock List</span>
-              <span className="item-desc">Some help text here</span>
+              <span className="item-desc"></span>
             </div>
             <div
               onClick={() => setActiveKey("pl-report")}
@@ -76,7 +76,7 @@ function Settings(props) {
               }`}
             >
               <span className="item-title">Profit & Loss Report</span>
-              <span className="item-desc">Some help text here</span>
+              <span className="item-desc"></span>
             </div>
           </div>
         </Col>

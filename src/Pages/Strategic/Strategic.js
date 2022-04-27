@@ -152,7 +152,11 @@ function Strategic(props) {
             >
               {strategicOptionsData?.map((item) => {
                 return (
-                  <Option key={item?.id} value={item?.strategicName}>
+                  <Option
+                    className="options"
+                    key={item?.id}
+                    value={item?.strategicName}
+                  >
                     {item?.strategicName}
                   </Option>
                 );
@@ -166,8 +170,8 @@ function Strategic(props) {
               allowClear
               onClear={() => setTradeType(undefined)}
             >
-              <Option value={"intraday"}>intraday</Option>
-              <Option value={"positional"}>positional</Option>
+              <Option className="options" value={"intraday"}>intraday</Option>
+              <Option className="options" value={"positional"}>positional</Option>
             </Select>
           </div>
           <div className="right-section">

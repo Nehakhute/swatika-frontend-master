@@ -348,7 +348,7 @@ function DayTrading(props) {
                       <Select
                         showSearch
                         value={item?.strategic_name}
-                        placeholder="Select a Strategic"
+                        placeholder="SELECT A STRATEGIC"
                         optionFilterProp="children"
                         filterOption={(input, option) =>
                           option.children
@@ -359,7 +359,11 @@ function DayTrading(props) {
                       >
                         {strategicOptionsData?.map((item) => {
                           return (
-                            <Option key={item?.id} value={item?.strategicName}>
+                            <Option
+                              className="options"
+                              key={item?.id}
+                              value={item?.strategicName}
+                            >
                               {item?.strategicName}
                             </Option>
                           );
