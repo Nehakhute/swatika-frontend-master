@@ -20,12 +20,8 @@ const Modal = ({ setOpenModal }) => {
             </button>
           </div>
         </div>
-        <div className="title">
-          <h1>Auto Trade </h1>
-        </div>
-        <div className="body">
-          <p>Are you sure you want to ON Auto Trade?</p>
-        </div>
+        <div className="title">Auto Trade</div>
+        <div className="body">Are you sure you want to ON Auto Trade?</div>
 
         <div className="footerbtn">
           <button
@@ -35,16 +31,16 @@ const Modal = ({ setOpenModal }) => {
             }}
             id="cancelBtn"
           >
-            Yes
+            Auto Trade On
           </button>
-      
+
           <button
             className="closepostionbtn"
             onClick={() => {
               setOpenModal(false);
             }}
           >
-            No
+            Discard
           </button>
         </div>
       </div>

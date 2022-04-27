@@ -34,7 +34,7 @@ const SquareModal = ({ setSquareModalOpen }) => {
             }}
             id="cancelBtn"
           >
-            Yes
+           Square Off
           </button>
           <button
             className="closepostionbtn"
@@ -42,7 +42,7 @@ const SquareModal = ({ setSquareModalOpen }) => {
               setSquareModalOpen(false);
             }}
           >
-            No
+            Discard
           </button>
        
         </div>

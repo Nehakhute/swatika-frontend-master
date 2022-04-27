@@ -49,7 +49,7 @@ top: 284px;
 
 font-family: 'Inter';
 font-style: normal;
-font-weight: 500;
+font-weight: 700;
 font-size: 14px;
 line-height: 28px;
 /* identical to box height, or 200% */
@@ -67,8 +67,8 @@ color: #000000;
     /* Text lg/Medium */
     
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
+    font-style: medium;
+    font-weight: 700;
     font-size: 18px;
     line-height: 28px;
     /* identical to box height, or 156% */
@@ -122,7 +122,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 12px;
-
+text-transform: uppercase;
 color: #FFFFFF;
 width: 170px;
 height: 43px;
@@ -147,7 +147,7 @@ color: #FFFFFF;
 border: none;
 width: 170px;
 height: 43px;
-
+text-transform: uppercase;
 
 background: #F97066;
 border-radius: 4px;
