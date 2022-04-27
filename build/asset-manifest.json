@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.b096b439.css",
+    "main.css": "/static/css/main.d7ae1657.css",
     "main.js": "/static/js/main.fd403aad.js",
     "static/js/787.45435bed.chunk.js": "/static/js/787.45435bed.chunk.js",
     "static/media/swastika-logo.svg": "/static/media/swastika-logo.324c07bb7c7d59c3e87ff6d213ecfb65.svg",
     "static/media/featureicon.svg": "/static/media/featureicon.71b6e5789a1457ac2f0b53906ab6aa8b.svg",
     "index.html": "/index.html",
     "static/media/D.svg": "/static/media/D.fe5a6dbb5bc923ff82e36d8fd12ffcc7.svg",
-    "main.b096b439.css.map": "/static/css/main.b096b439.css.map",
+    "main.d7ae1657.css.map": "/static/css/main.d7ae1657.css.map",
     "main.fd403aad.js.map": "/static/js/main.fd403aad.js.map",
     "787.45435bed.chunk.js.map": "/static/js/787.45435bed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b096b439.css",
+    "static/css/main.d7ae1657.css",
     "static/js/main.fd403aad.js"
   ]
 }
